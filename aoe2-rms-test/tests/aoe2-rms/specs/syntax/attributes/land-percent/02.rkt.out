@@ -1,0 +1,5 @@
+<TERRAIN_GENERATION>
+create_terrain DESERT {
+  base_terrain GRASS
+  land_percent 50
+}

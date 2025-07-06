@@ -1,0 +1,6 @@
+<OBJECTS_GENERATION>
+create_object OUTPOST {
+  set_gaia_object_only
+  make_indestructible
+  set_building_capturable
+}

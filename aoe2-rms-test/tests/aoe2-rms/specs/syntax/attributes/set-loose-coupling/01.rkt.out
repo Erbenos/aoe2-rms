@@ -1,0 +1,11 @@
+<OBJECTS_GENERATION>
+create_object DEER {
+  number_of_objects 7
+  number_of_groups 1
+  group_placement_radius 5
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 14
+  max_distance_to_players 22
+}

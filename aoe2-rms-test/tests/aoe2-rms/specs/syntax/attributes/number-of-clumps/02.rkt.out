@@ -1,0 +1,6 @@
+<TERRAIN_GENERATION>
+create_terrain FOREST {
+  base_terrain GRASS
+  land_percent 20
+  number_of_clumps 40
+}

@@ -1,0 +1,10 @@
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DESERT
+  number_of_tiles 100
+}
+<CONNECTION_GENERATION>
+create_connect_teams_lands {
+  replace_terrain DESERT ROAD
+  replace_terrain GRASS ROAD
+}

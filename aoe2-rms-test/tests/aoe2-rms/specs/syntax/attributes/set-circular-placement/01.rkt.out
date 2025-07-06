@@ -1,0 +1,4 @@
+<OBJECTS_GENERATION>
+create_object GOLD {
+  set_circular_placement
+}

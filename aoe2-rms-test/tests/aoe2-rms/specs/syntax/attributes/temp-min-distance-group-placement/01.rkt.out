@@ -1,0 +1,9 @@
+<OBJECTS_GENERATION>
+create_object GOLD {
+  number_of_objects 9320
+  number_of_groups 4
+  set_gaia_object_only
+  set_tight_grouping
+  min_distance_group_placement 4
+  temp_min_distance_group_placement 46
+}

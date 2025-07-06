@@ -1,0 +1,13 @@
+if TINY_MAP
+  override_map_size 144
+elseif SMALL_MAP
+  override_map_size 168
+elseif MEDIUM_MAP
+  override_map_size 200
+elseif LARGE_MAP
+  override_map_size 220
+elseif HUGE_MAP
+  override_map_size 240
+elseif GIGANTIC_MAP
+  override_map_size 255
+endif

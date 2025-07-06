@@ -1,0 +1,5 @@
+<TERRAIN_GENERATION>
+create_terrain FOREST {
+  base_terrain GRASS
+  land_percent 10
+}

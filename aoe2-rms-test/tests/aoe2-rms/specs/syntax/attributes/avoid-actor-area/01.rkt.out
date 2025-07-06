@@ -1,0 +1,14 @@
+<OBJECTS_GENERATION>
+create_object BARRACKS {
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 9
+  avoid_actor_area 94
+  avoid_actor_area 40
+  avoid_actor_area 8
+  avoid_actor_area 9
+  avoid_actor_area 99
+  avoid_actor_area 171
+  actor_area 51
+  actor_area_radius 5
+}

@@ -1,0 +1,7 @@
+<LAND_GENERATION>
+create_land {
+  terrain_type PALM_DESERT
+  number_of_tiles 128
+  base_elevation 2
+}
+<ELEVATION_GENERATION>

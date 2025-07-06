@@ -1,0 +1,8 @@
+<CONNECTION_GENERATION>
+create_connect_all_players_land {
+  replace_terrain GRASS DIRT2
+  replace_terrain FOREST LEAVES
+  replace_terrain SNOW_FOREST GRASS_SNOW
+  replace_terrain DIRT DIRT3
+  replace_terrain WATER SHALLOW
+}

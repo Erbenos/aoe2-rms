@@ -1,0 +1,16 @@
+<LAND_GENERATION>
+base_terrain FOREST
+create_player_lands {
+  terrain_type FOREST
+  other_zone_avoidance_distance 10
+}
+<CONNECTION_GENERATION>
+accumulate_connections
+create_connect_all_lands {
+  replace_terrain FOREST LEAVES
+  terrain_size FOREST 10 0
+}
+create_connect_all_lands {
+  replace_terrain LEAVES ROAD
+  terrain_size LEAVES 1 0
+}

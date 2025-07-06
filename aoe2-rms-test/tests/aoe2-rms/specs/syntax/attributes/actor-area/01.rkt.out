@@ -1,0 +1,13 @@
+<OBJECTS_GENERATION>
+create_object RELIC {
+  number_of_objects 5
+  set_gaia_object_only
+  temp_min_distance_group_placement 35
+  actor_area 1234
+}
+create_object WOLF {
+  number_of_objects 9320
+  set_gaia_object_only
+  actor_area_to_place_in 1234
+  temp_min_distance_group_placement 25
+}

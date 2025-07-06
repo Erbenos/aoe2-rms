@@ -1,0 +1,10 @@
+<OBJECTS_GENERATION>
+create_object STONE {
+  number_of_objects 4
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 20
+  max_distance_to_players 27
+}

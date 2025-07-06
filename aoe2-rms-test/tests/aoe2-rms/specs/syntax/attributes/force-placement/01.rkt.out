@@ -1,0 +1,11 @@
+<OBJECTS_GENERATION>
+create_object OUTPOST {
+  set_place_for_every_player
+  max_distance_to_players 0
+}
+create_object SHEEP {
+  number_of_objects 50
+  set_place_for_every_player
+  max_distance_to_players 1
+  force_placement
+}

@@ -1,0 +1,6 @@
+<CLIFF_GENERATION>
+<OBJECTS_GENERATION>
+create_object STONE {
+  number_of_objects 9999
+  avoid_cliff_zone 4
+}

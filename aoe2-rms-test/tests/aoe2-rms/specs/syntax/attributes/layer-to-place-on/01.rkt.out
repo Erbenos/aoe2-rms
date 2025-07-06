@@ -1,0 +1,17 @@
+<LAND_GENERATION>
+create_land {
+  terrain_type DESERT
+  number_of_tiles 500
+  land_position 50 50
+}
+<TERRAIN_GENERATION>
+create_terrain SNOW {
+  base_terrain DESERT
+  number_of_tiles 20
+  terrain_mask 1
+}
+<OBJECTS_GENERATION>
+create_object ROCK {
+  number_of_objects 300
+  layer_to_place_on DESERT
+}

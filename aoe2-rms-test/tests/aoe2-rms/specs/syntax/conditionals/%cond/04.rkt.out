@@ -1,0 +1,15 @@
+<OBJECTS_GENERATION>
+if DE_AVAILABLE
+elseif DLC_TIGER
+  if UP_EXTENSION
+    #define WOLOLOKINGDOMS
+  else
+    #define HD_DLC
+  endif
+elseif DLC_COW
+  #define HD_BASE
+elseif UP_EXTENSION
+elseif UP_AVAILABLE
+else
+  #define CONQUERORS_CD
+endif

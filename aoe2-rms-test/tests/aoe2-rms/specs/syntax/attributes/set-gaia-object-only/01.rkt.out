@@ -1,0 +1,9 @@
+<OBJECTS_GENERATION>
+create_object SHEEP {
+  number_of_objects 4
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 8
+}

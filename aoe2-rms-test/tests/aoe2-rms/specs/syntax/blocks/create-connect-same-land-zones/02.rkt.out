@@ -1,0 +1,9 @@
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DESERT
+  land_percent 5
+}
+<CONNECTION_GENERATION>
+create_connect_same_land_zones {
+  default_terrain_replacement ROAD
+}

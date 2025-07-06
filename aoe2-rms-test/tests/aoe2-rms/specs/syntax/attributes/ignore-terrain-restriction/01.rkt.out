@@ -1,0 +1,9 @@
+<OBJECTS_GENERATION>
+create_object SALMON {
+  number_of_objects 4
+  set_place_for_every_player
+  min_distance_to_players 3
+  set_gaia_object_only
+  find_closest
+  ignore_terrain_restrictions
+}

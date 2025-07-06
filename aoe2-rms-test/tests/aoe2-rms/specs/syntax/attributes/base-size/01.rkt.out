@@ -1,0 +1,6 @@
+<LAND_GENERATION>
+create_land {
+  terrain_type ICE
+  base_size 6
+  number_of_tiles 0
+}

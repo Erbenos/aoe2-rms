@@ -1,0 +1,6 @@
+<CLIFF_GENERATION>
+min_number_of_cliffs 10
+max_number_of_cliffs 10
+min_length_of_cliff 10
+max_length_of_cliff 10
+cliff_curliness 50

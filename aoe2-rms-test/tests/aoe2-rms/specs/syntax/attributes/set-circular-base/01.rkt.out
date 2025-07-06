@@ -1,0 +1,7 @@
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DESERT
+  land_percent 0
+  base_size 12
+  set_circular_base
+}

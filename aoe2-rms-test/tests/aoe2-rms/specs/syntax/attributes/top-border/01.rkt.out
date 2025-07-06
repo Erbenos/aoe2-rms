@@ -1,0 +1,6 @@
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DIRT
+  land_percent 100
+  top_border 60
+}

@@ -1,0 +1,4 @@
+set_gaia_civilization 35
+<OBJECTS_GENERATION>
+create_object MONUMENT {
+}

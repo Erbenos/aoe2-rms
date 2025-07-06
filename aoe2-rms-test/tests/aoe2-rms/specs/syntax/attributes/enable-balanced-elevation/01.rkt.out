@@ -1,0 +1,14 @@
+<ELEVATION_GENERATION>
+create_elevation 7 {
+  base_terrain GRASS
+  number_of_tiles 9320
+  number_of_clumps 9320
+  enable_balanced_elevation
+}
+<TERRAIN_GENERATION>
+create_terrain DESERT {
+  base_terrain GRASS
+  land_percent 100
+  number_of_clumps 9320
+  height_limits 1 7
+}

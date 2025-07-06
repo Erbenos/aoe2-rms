@@ -1,0 +1,7 @@
+<TERRAIN_GENERATION>
+create_terrain FOREST {
+  base_terrain GRASS
+  land_percent 100
+  number_of_clumps 999
+  set_avoid_player_start_areas 2
+}

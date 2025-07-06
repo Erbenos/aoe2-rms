@@ -1,0 +1,10 @@
+<TERRAIN_GENERATION>
+create_terrain WATER {
+  base_terrain GRASS
+  land_percent 10
+}
+create_terrain FOREST {
+  base_terrain GRASS
+  spacing_to_other_terrain_types 10
+  land_percent 100
+}

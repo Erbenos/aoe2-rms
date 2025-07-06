@@ -1,0 +1,9 @@
+<PLAYER_SETUP>
+direct_placement
+<LAND_GENERATION>
+create_land {
+  terrain_type DESERT
+  land_percent 3
+  land_position 50 50
+  assign_to_player 1
+}

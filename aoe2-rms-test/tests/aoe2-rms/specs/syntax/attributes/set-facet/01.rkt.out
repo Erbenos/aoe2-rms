@@ -1,0 +1,5 @@
+<OBJECTS_GENERATION>
+create_object JUNGLETREE {
+  number_of_objects 10
+  set_facet 30
+}

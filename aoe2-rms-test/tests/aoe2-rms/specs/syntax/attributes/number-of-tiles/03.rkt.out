@@ -1,0 +1,5 @@
+<TERRAIN_GENERATION>
+create_terrain WATER {
+  base_terrain GRASS
+  number_of_tiles 500
+}

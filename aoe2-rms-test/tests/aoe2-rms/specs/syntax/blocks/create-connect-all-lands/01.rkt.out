@@ -1,0 +1,20 @@
+<LAND_GENERATION>
+base_terrain WATER
+create_player_lands {
+  terrain_type DESERT
+  number_of_tiles 100
+}
+create_land {
+  terrain_type FOREST
+  number_of_tiles 100
+  land_position 99 1
+}
+create_land {
+  terrain_type PINE_FOREST
+  number_of_tiles 100
+  land_position 50 50
+}
+<CONNECTION_GENERATION>
+create_connect_all_lands {
+  replace_terrain WATER SHALLOW
+}

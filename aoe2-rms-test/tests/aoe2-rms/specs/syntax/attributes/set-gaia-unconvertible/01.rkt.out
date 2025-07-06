@@ -1,0 +1,7 @@
+<OBJECTS_GENERATION>
+create_object PYRAMID {
+  number_of_objects 3
+  set_gaia_object_only
+  set_gaia_unconvertible
+  make_indestructible
+}

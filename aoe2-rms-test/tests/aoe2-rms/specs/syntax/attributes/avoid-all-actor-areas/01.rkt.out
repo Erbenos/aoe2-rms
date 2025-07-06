@@ -1,0 +1,12 @@
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER {
+  set_place_for_every_player
+  max_distance_to_players 0
+  actor_area 100
+  actor_area_radius 60
+}
+create_object WOLF {
+  number_of_objects 9320
+  temp_min_distance_group_placement 52
+  avoid_all_actor_areas
+}

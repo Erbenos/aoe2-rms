@@ -1,0 +1,12 @@
+<LAND_GENERATION>
+base_terrain WATER
+create_player_lands {
+  terrain_type DIRT
+  land_percent 80
+  set_zone_randomly
+  other_zone_avoidance_distance 10
+  left_border 10
+  top_border 10
+  right_border 10
+  bottom_border 10
+}

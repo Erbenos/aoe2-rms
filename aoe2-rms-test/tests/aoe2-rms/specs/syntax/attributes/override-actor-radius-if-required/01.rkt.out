@@ -1,0 +1,11 @@
+<OBJECTS_GENERATION>
+create_object BARRACKS {
+  set_place_for_every_player
+  find_closest
+  actor_area 2
+}
+create_object HOUSE {
+  set_place_for_every_player
+  actor_area_to_place_in 2
+  override_actor_radius_if_required
+}

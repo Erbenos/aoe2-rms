@@ -1,0 +1,28 @@
+start_random
+  percent_chance 30
+    #define WINTER
+  percent_chance 30
+    #define AUTUMN
+end_random
+if WINTER
+  #const LAND_A 32
+  #const BERRY_TYPE 52
+elseif AUTUMN
+  #const LAND_A 5
+  #const BERRY_TYPE 59
+else
+  #const LAND_A 3
+  #const BERRY_TYPE 1059
+endif
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type LAND_A
+}
+<OBJECTS_GENERATION>
+create_object BERRY_TYPE {
+  number_of_objects 5
+  set_place_for_every_player
+  set_gaia_object_only
+  find_closest
+  terrain_to_place_on LAND_A
+}

@@ -1,0 +1,18 @@
+<LAND_GENERATION>
+base_terrain BAMBOO
+create_player_lands {
+  land_percent 50
+  border_fuzziness 1
+  left_border 25
+  right_border 25
+  top_border 25
+  bottom_border 25
+  zone 1
+}
+<OBJECTS_GENERATION>
+create_object SHEEP {
+  number_of_objects 4
+  number_of_groups 150
+  set_tight_grouping
+  min_connected_tiles 80
+}

@@ -1,0 +1,16 @@
+<LAND_GENERATION>
+create_land {
+  generate_mode 1
+  terrain_type WATER
+  land_percent 1
+}
+create_land {
+  generate_mode 1
+  terrain_type WATER
+  land_percent 1
+}
+create_land {
+  generate_mode 1
+  terrain_type WATER
+  land_percent 1
+}

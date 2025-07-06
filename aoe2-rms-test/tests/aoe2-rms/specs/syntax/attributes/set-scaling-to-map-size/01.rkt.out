@@ -1,0 +1,7 @@
+<OBJECTS_GENERATION>
+create_object GOLD {
+  number_of_objects 10
+  number_of_groups 3
+  set_scaling_to_map_size
+  set_tight_grouping
+}

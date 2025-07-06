@@ -1,0 +1,11 @@
+<OBJECTS_GENERATION>
+create_object_group HERDABLE_A {
+  add_object DLC_COW 25
+  add_object DLC_COW_B 25
+  add_object DLC_COW_C 25
+  add_object DLC_COW_D 25
+}
+create_object HERDABLE_A {
+  number_of_objects 6
+  number_of_groups 24
+}

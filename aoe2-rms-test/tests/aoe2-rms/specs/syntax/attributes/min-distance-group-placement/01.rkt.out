@@ -1,0 +1,11 @@
+<OBJECTS_GENERATION>
+create_object FORAGE {
+  number_of_objects 7
+  number_of_groups 2
+  set_tight_grouping
+  set_place_for_every_player
+  set_gaia_object_only
+  min_distance_to_players 8
+  max_distance_to_players 10
+  min_distance_group_placement 4
+}

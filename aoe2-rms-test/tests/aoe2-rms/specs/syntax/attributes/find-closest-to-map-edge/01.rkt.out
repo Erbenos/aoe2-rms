@@ -1,0 +1,6 @@
+<OBJECTS_GENERATION>
+create_object RELIC {
+  set_place_for_every_player
+  set_gaia_object_only
+  find_closest_to_map_edge
+}

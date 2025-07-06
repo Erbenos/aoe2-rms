@@ -1,0 +1,9 @@
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DESERT
+  number_of_tiles 100
+}
+<CONNECTION_GENERATION>
+create_connect_all_players_land {
+  default_terrain_replacement DIRT
+}

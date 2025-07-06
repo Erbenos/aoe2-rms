@@ -1,0 +1,7 @@
+<OBJECTS_GENERATION>
+start_random
+  percent_chance 10
+    create_object GOLD {
+      number_of_objects 5
+    }
+end_random

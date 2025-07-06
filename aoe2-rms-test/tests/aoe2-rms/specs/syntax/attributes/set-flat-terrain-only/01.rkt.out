@@ -1,0 +1,14 @@
+<ELEVATION_GENERATION>
+create_elevation 7 {
+  base_terrain GRASS
+  number_of_tiles 3000
+  number_of_clumps 1
+}
+<TERRAIN_GENERATION>
+create_terrain DESERT {
+  base_terrain GRASS
+  land_percent 10
+  number_of_clumps 9320
+  spacing_to_other_terrain_types 1
+  set_flat_terrain_only
+}

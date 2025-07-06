@@ -1,0 +1,7 @@
+behavior_version 1
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DLC_BLACK
+  number_of_tiles 250
+  base_size 12
+}

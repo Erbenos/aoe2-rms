@@ -1,0 +1,6 @@
+<LAND_GENERATION>
+create_land {
+  terrain_type WATER
+  land_percent 10
+  clumping_factor 2
+}

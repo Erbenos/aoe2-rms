@@ -1,0 +1,5 @@
+<OBJECTS_GENERATION>
+create_object BOAR {
+  number_of_objects 5
+  number_of_groups 20
+}

@@ -1,0 +1,7 @@
+<CONNECTION_GENERATION>
+create_connect_all_players_land {
+  replace_terrain GRASS ROAD
+  replace_terrain WATER SHALLOW
+  terrain_size GRASS 1 1
+  terrain_size WATER 3 1
+}

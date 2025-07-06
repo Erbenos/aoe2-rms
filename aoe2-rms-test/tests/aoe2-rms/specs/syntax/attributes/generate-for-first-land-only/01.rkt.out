@@ -1,0 +1,16 @@
+<LAND_GENERATION>
+base_terrain WATER
+create_player_lands {
+  land_percent 10
+}
+create_player_lands {
+  land_percent 10
+}
+<OBJECTS_GENERATION>
+create_object HOUSE {
+  set_place_for_every_player
+}
+create_object KING {
+  set_place_for_every_player
+  generate_for_first_land_only
+}

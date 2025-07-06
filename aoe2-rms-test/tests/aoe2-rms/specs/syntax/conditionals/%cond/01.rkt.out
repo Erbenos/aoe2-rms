@@ -1,0 +1,23 @@
+<OBJECTS_GENERATION>
+create_object RELIC {
+  min_distance_to_players 25
+  if TINY_MAP
+    number_of_objects 5
+    temp_min_distance_group_placement 35
+  elseif SMALL_MAP
+    number_of_objects 5
+    temp_min_distance_group_placement 38
+  elseif MEDIUM_MAP
+    number_of_objects 5
+    temp_min_distance_group_placement 38
+  elseif LARGE_MAP
+    number_of_objects 7
+    temp_min_distance_group_placement 48
+  elseif HUGE_MAP
+    number_of_objects 8
+    temp_min_distance_group_placement 52
+  else
+    number_of_objects 999
+    temp_min_distance_group_placement 52
+  endif
+}

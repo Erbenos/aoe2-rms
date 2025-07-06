@@ -1,0 +1,3 @@
+#lang aoe2-rms
+
+<ELEVATION-GENERATION>

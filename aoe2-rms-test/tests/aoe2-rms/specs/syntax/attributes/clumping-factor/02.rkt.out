@@ -1,0 +1,6 @@
+<TERRAIN_GENERATION>
+create_terrain BAMBOO {
+  base_terrain GRASS
+  number_of_tiles 500
+  clumping_factor 20
+}

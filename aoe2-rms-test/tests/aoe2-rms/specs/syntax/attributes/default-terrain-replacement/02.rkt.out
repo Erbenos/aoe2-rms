@@ -1,0 +1,4 @@
+<CONNECTION_GENERATION>
+create_connect_all_lands {
+  default_terrain_replacement ICE
+}

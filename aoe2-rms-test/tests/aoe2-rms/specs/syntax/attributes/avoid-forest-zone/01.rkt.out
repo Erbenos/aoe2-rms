@@ -1,0 +1,5 @@
+<OBJECTS_GENERATION>
+create_object GOLD {
+  number_of_objects 9999
+  avoid_forest_zone 3
+}

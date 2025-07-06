@@ -1,0 +1,11 @@
+<OBJECTS_GENERATION>
+if REGICIDE
+  #const HERO KING
+else
+  #const HERO SCOUT
+endif
+create_object HERO {
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 9
+}

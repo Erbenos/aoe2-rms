@@ -1,0 +1,7 @@
+<OBJECTS_GENERATION>
+create_object FORAGE {
+  number_of_objects 5
+  number_of_groups 10
+  group_variance 3
+  set_tight_grouping
+}

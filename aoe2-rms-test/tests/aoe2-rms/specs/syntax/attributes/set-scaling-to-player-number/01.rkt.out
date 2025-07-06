@@ -1,0 +1,5 @@
+<OBJECTS_GENERATION>
+create_object RELIC {
+  number_of_objects 2
+  set_scaling_to_player_number
+}

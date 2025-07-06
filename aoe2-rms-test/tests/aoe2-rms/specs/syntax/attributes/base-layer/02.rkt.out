@@ -1,0 +1,10 @@
+<LAND_GENERATION>
+base_terrain DIRT
+base_layer SNOW
+<ELEVATION_GENERATION>
+create_elevation 7 {
+  base_terrain DIRT3
+  base_layer SNOW
+  number_of_tiles 9320
+  number_of_clumps 20
+}

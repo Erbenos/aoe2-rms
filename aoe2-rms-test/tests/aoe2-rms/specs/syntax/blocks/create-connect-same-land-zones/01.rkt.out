@@ -1,0 +1,20 @@
+<LAND_GENERATION>
+create_land {
+  terrain_type FOREST
+  land_percent 5
+  zone 1
+}
+create_land {
+  terrain_type DESERT
+  land_percent 5
+  zone 1
+}
+create_land {
+  terrain_type WATER
+  land_percent 5
+  zone 50
+}
+<CONNECTION_GENERATION>
+create_connect_same_land_zones {
+  default_terrain_replacement ICE
+}

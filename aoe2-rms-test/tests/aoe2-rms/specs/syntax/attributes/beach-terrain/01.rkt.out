@@ -1,0 +1,9 @@
+<LAND_GENERATION>
+base_terrain WATER
+<TERRAIN_GENERATION>
+create_terrain DIRT {
+  number_of_tiles 500
+  spacing_to_other_terrain_types 1
+  base_terrain WATER
+  beach_terrain DLC_BEACH2
+}

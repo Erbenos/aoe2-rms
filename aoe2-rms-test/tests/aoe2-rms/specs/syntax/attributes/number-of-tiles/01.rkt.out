@@ -1,0 +1,5 @@
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DIRT
+  number_of_tiles 300
+}

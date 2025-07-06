@@ -1,0 +1,5 @@
+<ELEVATION_GENERATION>
+create_elevation 7 {
+  base_terrain WATER
+  number_of_tiles 600
+}

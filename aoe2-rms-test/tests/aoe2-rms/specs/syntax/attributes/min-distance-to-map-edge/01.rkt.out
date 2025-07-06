@@ -1,0 +1,6 @@
+<OBJECTS_GENERATION>
+create_object RELIC {
+  set_gaia_object_only
+  number_of_objects 500
+  min_distance_to_map_edge 10
+}

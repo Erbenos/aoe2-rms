@@ -1,0 +1,7 @@
+<TERRAIN_GENERATION>
+create_terrain WATER {
+  base_terrain GRASS
+  number_of_tiles 400
+  number_of_clumps 4
+  set_scale_by_groups
+}

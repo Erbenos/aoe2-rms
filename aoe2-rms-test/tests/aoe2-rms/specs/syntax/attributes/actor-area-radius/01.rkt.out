@@ -1,0 +1,14 @@
+<OBJECTS_GENERATION>
+create_object MILL {
+  set_place_for_every_player
+  min_distance_to_players 16
+  max_distance_to_players 20
+  actor_area 61
+  actor_area_radius 7
+}
+create_object DEER {
+  number_of_objects 7
+  set_place_for_every_player
+  set_gaia_object_only
+  actor_area_to_place_in 61
+}

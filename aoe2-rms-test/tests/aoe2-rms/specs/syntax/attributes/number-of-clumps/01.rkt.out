@@ -1,0 +1,6 @@
+<ELEVATION_GENERATION>
+create_elevation 3 {
+  base_terrain GRASS
+  number_of_tiles 400
+  number_of_clumps 4
+}

@@ -1,0 +1,14 @@
+<LAND_GENERATION>
+create_player_lands {
+  terrain_type DIRT2
+  number_of_tiles 100
+}
+create_land {
+  terrain_type DESERT
+  number_of_tiles 500
+  land_position 50 50
+}
+<CONNECTION_GENERATION>
+create_connect_to_nonplayer_land {
+  replace_terrain GRASS ROAD2
+}

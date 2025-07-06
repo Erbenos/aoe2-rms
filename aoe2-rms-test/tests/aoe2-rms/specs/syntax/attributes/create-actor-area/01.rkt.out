@@ -1,0 +1,21 @@
+<OBJECTS_GENERATION>
+if TINY_MAP
+  create_actor_area 60 60 1234 30
+elseif SMALL_MAP
+  create_actor_area 72 72 1234 36
+elseif MEDIUM_MAP
+  create_actor_area 84 84 1234 42
+elseif LARGE_MAP
+  create_actor_area 100 100 1234 50
+elseif HUGE_MAP
+  create_actor_area 110 110 1234 55
+elseif GIGANTIC_MAP
+  create_actor_area 120 120 1234 60
+elseif LUDIKRIS_MAP
+  create_actor_area 240 240 1234 120
+endif
+create_object RELIC {
+  number_of_objects 500
+  set_gaia_object_only
+  avoid_actor_area 1234
+}

@@ -1,0 +1,8 @@
+<OBJECTS_GENERATION>
+create_object BOAR {
+  set_place_for_every_player
+  set_gaia_object_only
+  require_path 1
+  min_distance_to_players 16
+  max_distance_to_players 22
+}

@@ -1,0 +1,10 @@
+<OBJECTS_GENERATION>
+create_object GOLD {
+  set_place_for_every_player
+  set_gaia_object_only
+  number_of_objects 4
+  min_distance_to_players 12
+  set_circular_placement
+  find_closest
+  enable_tile_shuffling
+}

@@ -1,0 +1,14 @@
+start_random
+  percent_chance 20
+    #define WINTER
+  percent_chance 20
+    #define AUTUMN
+end_random
+<LAND_GENERATION>
+if WINTER
+  base_terrain SNOW
+elseif AUTUMN
+  base_terrain LEAVES
+else
+  base_terrain DIRT
+endif

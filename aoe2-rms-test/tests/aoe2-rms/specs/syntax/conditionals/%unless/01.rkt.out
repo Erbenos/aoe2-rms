@@ -1,0 +1,8 @@
+<OBJECTS_GENERATION>
+if INFINITE_RESOURCES
+else
+  create_object DLC_COW {
+    set_place_for_every_player
+    find_closest
+  }
+endif

@@ -1,0 +1,5 @@
+<OBJECTS_GENERATION>
+create_object SHEEP {
+  number_of_objects 99999
+  place_on_forest_zone
+}
