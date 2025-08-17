@@ -7,4 +7,4 @@
 (define pkg-authors '("Miroslav Foltýn"))
 (define build-deps '("aoe2-rms-lib" "rackunit-lib"))
 (define update-implies '("aoe2-rms-lib"))
-(define version "0.1")
+(define version "0.2")
