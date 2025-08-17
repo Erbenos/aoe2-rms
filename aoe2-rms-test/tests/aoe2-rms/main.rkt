@@ -42,9 +42,13 @@
              (first test-case-blueprint) (second test-case-blueprint)))
           value)))
 
-  (~>
-   "specs"
-   directory->test-suites-hash
-   (hash-map test-suit-hash-record->test-suite)
-   (test-suite "aoe2-rms" _)
-   run-tests))
+  ; Skip running tests when in CI of https://pkgs.racket-lang.org/
+  ; Their VM that runs them is a black box, it has "racket" installed, but not in PATH
+  ; and I am not interested in making releases by trial and error to make their CI pass.
+  (when (not (getenv "PLT_PKG_BUILD_SERVICE"))
+    (~>
+     "specs"
+     directory->test-suites-hash
+     (hash-map test-suit-hash-record->test-suite)
+     (test-suite "aoe2-rms" _)
+     run-tests)))
