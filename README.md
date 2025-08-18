@@ -30,7 +30,7 @@ For syntax of the `#lang aoe2-rms` file and more, see [Documentation](https://do
 
 If you are interested in general documentation regarding authoring random maps for AoE2, please see the [Random Map Scripting Guide by Zetnus](https://docs.google.com/document/d/1jnhZXoeL9mkRUJxcGlKnO98fIwFKStP_OBozpr0CHXo/edit?tab=t.0), which contents heavily inspire the `aoe2-rms` documentation.
 
-For some advanced stuff which would not be doable out of the box without the DSL, see [Recipes](https://docs.racket-lang.org/aoe2-rms/recipes).
+For some advanced stuff which would not be doable out of the box without the DSL, see [Recipes](https://docs.racket-lang.org/aoe2-rms/recipes.html).
 
 ## Versioning
 
