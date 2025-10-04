@@ -16,6 +16,7 @@ help:
 	@echo "check-deps - check dependencies"
 	@echo "test - run tests"
 	@echo "docs - view docs in a browser"
+	@echo "setup - day to day dev"
 
 # Primarily for use by CI.
 # Installs dependencies as well as linking this as a package.
@@ -44,7 +45,15 @@ build-all:
 # Primarily for CI, for building backup docs that could be used in case
 # the main docs at docs.racket-lang.org become unavailable.
 build-standalone-docs:
-	scribble +m --redirect-main http://pkg-build.racket-lang.org/doc/ --htmls --dest ./doc ./aoe2-rms-doc/aoe2-rms/scribblings/aoe2-rms.scrbl
+	raco scribble +m --redirect-main http://pkg-build.racket-lang.org/doc/ --htmls --dest ./doc ./aoe2-rms-doc/aoe2-rms/scribblings/aoe2-rms.scrbl
+
+build-markdown-docs:
+	raco scribble +m --redirect-main http://pkg-build.racket-lang.org/doc/ --markdown --dest ./md-doc ./aoe2-rms-doc/aoe2-rms/scribblings/aoe2-rms.scrbl
+
+# Primarily for day-to-day dev.
+# Note: Also builds docs (if any) and checks deps.
+setup:
+	raco setup --tidy --avoid-main $(DEPS-FLAGS) --pkgs $(PACKAGE-NAME)
 
 # Note: Each collection's info.rkt can say what to clean, for example
 # (define clean '("compiled" "doc" "doc/<collect>")) to clean
